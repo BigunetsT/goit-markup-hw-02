@@ -5,6 +5,7 @@
   --primary-white-color: #ffffff;
   --logo-color: #000000;
   --button-color: #f5f4fa;
+  --black-font-color: #2f303a;
 }
 body {
   background-color: var(--primary-white-color);
@@ -68,10 +69,11 @@ body {
 /* =======END HEADER======= */
 
 /* =======HERO======= */
+.hero {
+  background-color: var(--black-font-color);
+}
 .hero-title {
-  /* color: var(--primary-white-color);
-  сменить цвет H1 после задания цвета фону */
-  color: var(--primary-text-color);
+  color: var(--primary-white-color);
 
   font-weight: 900;
   font-size: 44px;
@@ -127,24 +129,21 @@ body {
 /* =======END SECTION OUR TEAM======= */
 
 /* =======FOOTER======= */
+footer {
+  background-color: var(--black-font-color);
+}
 .dark-theme {
-  /* color: var(--primary-white-color);
-  сменить цвет Studio после задания цвета фону  */
-  color: var(--primary-text-color);
+  color: var(--primary-white-color);
 }
 .footer-link {
-  /* color: var(--primary-white-color);
-  сменить цвет Studio после задания цвета фону  */
-  color: var(--primary-text-color);
+  color: var(--primary-white-color);
 
   font-weight: 400;
   line-height: 1.714;
 }
 .footer-link-mail,
 .footer-link-tel {
-  /* color: rgba(255, 255, 255, 0.6);
-  сменить цвет Studio после задания цвета фону  */
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(255, 255, 255, 0.6);
 }
 .footer-link-mail:hover,
 .footer-link-mail:focus,
