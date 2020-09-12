@@ -52,6 +52,8 @@ body {
 .nav-link:focus,
 .address-link:hover,
 .address-link:focus,
+.address-tel:hover,
+.address-tel:focus,
 .nav .link.current {
   color: var(--accent-color);
 }
@@ -59,7 +61,7 @@ body {
   font-style: normal;
 }
 .address-link,
-.adress-tel {
+.address-tel {
   color: var(--primary-text-color);
 
   font-weight: 500;
@@ -145,6 +147,8 @@ footer {
 .footer-link-tel {
   color: rgba(255, 255, 255, 0.6);
 }
+.footer-link:hover,
+.footer-link:focus,
 .footer-link-mail:hover,
 .footer-link-mail:focus,
 .footer-link-tel:hover,
